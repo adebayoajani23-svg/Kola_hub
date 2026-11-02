@@ -1,4 +1,4 @@
-name = "kola-digital-ng"
+name = "kola-messaging-lab"
 main = "worker.js"
 compatibility_date = "2026-11-01"
 
@@ -10,7 +10,7 @@ run_worker_first = ["/api/*"]
 
 [[kv_namespaces]]
 binding = "KOLA_DATA"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "9cd41ef2f6fd445cb8571a1aeb651301"
 
 [vars]
 OPENAI_MODEL = "gpt-4o-mini"
